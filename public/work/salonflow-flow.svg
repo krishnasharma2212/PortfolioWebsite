@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="500" viewBox="0 0 1120 500" role="img" aria-labelledby="sf-title sf-desc">
+  <title id="sf-title">How SalonFlow works for a salon</title>
+  <desc id="sf-desc">Three steps: the owner sets up services and prices, links their salon WhatsApp number by scanning a QR code, and from then on the bot answers customers, checks availability, reserves a slot and confirms.</desc>
+  <!-- Re-themed from the project's own docs/assets/product-flow.svg. Same
+       content and geometry; palette moved onto the site's tokens so the
+       diagram belongs to the page rather than sitting on it. -->
+  <defs>
+    <marker id="sf-arrow" markerWidth="10" markerHeight="10" refX="8.5" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4ecfe8" opacity="0.75"/>
+    </marker>
+    <style>
+      .sf-card { fill: #0a1220; stroke: #1c2c42; stroke-width: 1 }
+      .sf-h    { font-family: ui-sans-serif, system-ui, "Segoe UI", sans-serif; font-size: 22px; font-weight: 600; fill: #eaf4ff }
+      .sf-t    { font-family: ui-sans-serif, system-ui, "Segoe UI", sans-serif; font-size: 15px; font-weight: 400; fill: #94a6bc }
+      .sf-n    { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 15px; font-weight: 500; fill: #01050c }
+      .sf-note { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 14px; letter-spacing: .02em; fill: #94a6bc }
+    </style>
+  </defs>
+
+  <rect width="1120" height="500" rx="14" fill="#050b15"/>
+  <text x="56" y="60" class="sf-h" font-size="27">How SalonFlow works for a salon</text>
+  <text x="56" y="93" class="sf-t">One setup by the owner turns into always-on WhatsApp booking for customers.</text>
+
+  <g transform="translate(56 145)">
+    <rect class="sf-card" width="220" height="188" rx="14"/>
+    <circle cx="40" cy="40" r="17" fill="#4ecfe8"/>
+    <text x="40" y="45" text-anchor="middle" class="sf-n">1</text>
+    <text x="28" y="86" class="sf-h">Owner setup</text>
+    <text x="28" y="119" class="sf-t">Salon profile, services,</text>
+    <text x="28" y="144" class="sf-t">prices, timings, UPI,</text>
+    <text x="28" y="169" class="sf-t">and bot instructions.</text>
+  </g>
+
+  <path d="M292 239h94" stroke="#24374f" stroke-width="1.5" stroke-linecap="round" marker-end="url(#sf-arrow)"/>
+
+  <g transform="translate(408 145)">
+    <rect class="sf-card" width="220" height="188" rx="14"/>
+    <circle cx="40" cy="40" r="17" fill="#9b8cfa"/>
+    <text x="40" y="45" text-anchor="middle" class="sf-n">2</text>
+    <text x="28" y="86" class="sf-h">Connect WhatsApp</text>
+    <text x="28" y="119" class="sf-t">The owner scans a QR</text>
+    <text x="28" y="144" class="sf-t">code and links their</text>
+    <text x="28" y="169" class="sf-t">salon WhatsApp number.</text>
+  </g>
+
+  <path d="M644 239h94" stroke="#24374f" stroke-width="1.5" stroke-linecap="round" marker-end="url(#sf-arrow)"/>
+
+  <g transform="translate(760 145)">
+    <rect class="sf-card" width="220" height="188" rx="14"/>
+    <circle cx="40" cy="40" r="17" fill="#f0a35e"/>
+    <text x="40" y="45" text-anchor="middle" class="sf-n">3</text>
+    <text x="28" y="86" class="sf-h">Customer books</text>
+    <text x="28" y="119" class="sf-t">The bot answers, checks</text>
+    <text x="28" y="144" class="sf-t">availability, reserves</text>
+    <text x="28" y="169" class="sf-t">a slot, and confirms.</text>
+  </g>
+
+  <g transform="translate(56 382)">
+    <rect width="1008" height="62" rx="12" fill="#0a1220" stroke="#1c2c42" stroke-width="1"/>
+    <text x="28" y="38" class="sf-note">Result — fewer missed calls, faster bookings, payment proof saved, reminders sent automatically.</text>
+  </g>
+</svg>

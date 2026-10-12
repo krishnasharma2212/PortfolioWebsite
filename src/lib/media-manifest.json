@@ -1,0 +1,401 @@
+{
+ "/media/breakdown/julius/captions.webp": {
+  "v": "fac55b15b3",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/breakdown/julius/final.webp": {
+  "v": "765d13b3fc",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/breakdown/julius/fx.webp": {
+  "v": "b6821c41da",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/breakdown/julius/panel.webp": {
+  "v": "66c84b551c",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/breakdown/julius/plate.webp": {
+  "v": "b056c6b1f3",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/breakdown/julius/popout.webp": {
+  "v": "20daf12904",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/hero/avatar-code-1532.avif": {
+  "v": "e9c91a7c32",
+  "w": 1532,
+  "h": 2300
+ },
+ "/media/hero/avatar-code-1532.webp": {
+  "v": "7f1802178d",
+  "w": 1532,
+  "h": 2300
+ },
+ "/media/hero/avatar-code-766.avif": {
+  "v": "1808621e85",
+  "w": 766,
+  "h": 1150
+ },
+ "/media/hero/avatar-code-766.webp": {
+  "v": "a9f470ea2b",
+  "w": 766,
+  "h": 1150
+ },
+ "/media/hero/avatar-edit-1532.avif": {
+  "v": "a6c3b74cfe",
+  "w": 1532,
+  "h": 2300
+ },
+ "/media/hero/avatar-edit-1532.webp": {
+  "v": "7309e97186",
+  "w": 1532,
+  "h": 2300
+ },
+ "/media/hero/avatar-edit-766.avif": {
+  "v": "63db06fc88",
+  "w": 766,
+  "h": 1150
+ },
+ "/media/hero/avatar-edit-766.webp": {
+  "v": "ac3979432b",
+  "w": 766,
+  "h": 1150
+ },
+ "/media/hero/avatar-idle.av1.mp4": {
+  "v": "e59b3fd7fd",
+  "type": "video/mp4; codecs=\"av01.0.08M.08\"",
+  "w": 864,
+  "h": 2596,
+  "duration": 8,
+  "size": 1483043
+ },
+ "/media/hero/avatar-idle.mp4": {
+  "v": "8f978b70a2",
+  "type": "video/mp4; codecs=\"avc1.640032\"",
+  "w": 864,
+  "h": 2596,
+  "duration": 8,
+  "size": 3084377
+ },
+ "/media/hero/avatar-neutral-864.avif": {
+  "v": "8007d9cb3a",
+  "w": 864,
+  "h": 1298
+ },
+ "/media/hero/avatar-neutral-864.webp": {
+  "v": "877699f93a",
+  "w": 864,
+  "h": 1298
+ },
+ "/media/hero/krishna-1259.avif": {
+  "v": "18514a2d9d",
+  "w": 1259,
+  "h": 2300
+ },
+ "/media/hero/krishna-1259.webp": {
+  "v": "a79ec9d97a",
+  "w": 1259,
+  "h": 2300
+ },
+ "/media/hero/krishna-630.avif": {
+  "v": "331a0d6f15",
+  "w": 629,
+  "h": 1150
+ },
+ "/media/hero/krishna-630.webp": {
+  "v": "07852e839f",
+  "w": 629,
+  "h": 1150
+ },
+ "/media/hero/krishna.json": {
+  "v": "7df19c38be"
+ },
+ "/media/rawfinal/reel07/final.av1.mp4": {
+  "v": "1664c1317a",
+  "type": "video/mp4; codecs=\"av01.0.05M.08, opus\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 20.587,
+  "size": 1790430
+ },
+ "/media/rawfinal/reel07/final.mp4": {
+  "v": "937aa35e6b",
+  "type": "video/mp4; codecs=\"avc1.64001f, mp4a.40.2\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 20.586,
+  "size": 2998448
+ },
+ "/media/rawfinal/reel07/poster-final.webp": {
+  "v": "9ba2d0b07b",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/rawfinal/reel07/poster-raw.webp": {
+  "v": "09be116ecd",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/rawfinal/reel07/raw.av1.mp4": {
+  "v": "dc88f0b33c",
+  "type": "video/mp4; codecs=\"av01.0.05M.08, opus\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 20.567,
+  "size": 1491282
+ },
+ "/media/rawfinal/reel07/raw.mp4": {
+  "v": "37de6cd515",
+  "type": "video/mp4; codecs=\"avc1.64001f, mp4a.40.2\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 20.567,
+  "size": 2334349
+ },
+ "/media/reels/canva-ai-day-3/full.av1.mp4": {
+  "v": "c1c9fd2423",
+  "type": "video/mp4; codecs=\"av01.0.05M.08, opus\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 26.667,
+  "size": 2432568
+ },
+ "/media/reels/canva-ai-day-3/full.mp4": {
+  "v": "7ce6ee5525",
+  "type": "video/mp4; codecs=\"avc1.64001f, mp4a.40.2\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 26.667,
+  "size": 4870788
+ },
+ "/media/reels/canva-ai-day-3/poster-sm.webp": {
+  "v": "ed59137b9c",
+  "w": 360,
+  "h": 640
+ },
+ "/media/reels/canva-ai-day-3/poster.webp": {
+  "v": "93a96f84a2",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/reels/canva-ai-day-3/preview.av1.mp4": {
+  "v": "66560a0a12",
+  "type": "video/mp4; codecs=\"av01.0.04M.08\"",
+  "w": 480,
+  "h": 854,
+  "duration": 6,
+  "size": 296748
+ },
+ "/media/reels/canva-ai-day-3/preview.mp4": {
+  "v": "f885663c71",
+  "type": "video/mp4; codecs=\"avc1.64001f\"",
+  "w": 480,
+  "h": 854,
+  "duration": 6,
+  "size": 417701
+ },
+ "/media/reels/copilot-day-1/full.av1.mp4": {
+  "v": "123c01a01f",
+  "type": "video/mp4; codecs=\"av01.0.05M.08, opus\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 24.341,
+  "size": 1907697
+ },
+ "/media/reels/copilot-day-1/full.mp4": {
+  "v": "a773672cb1",
+  "type": "video/mp4; codecs=\"avc1.64001f, mp4a.40.2\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 24.341,
+  "size": 3773300
+ },
+ "/media/reels/copilot-day-1/poster-sm.webp": {
+  "v": "95d4172e71",
+  "w": 360,
+  "h": 640
+ },
+ "/media/reels/copilot-day-1/poster.webp": {
+  "v": "d10cdd38f5",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/reels/copilot-day-1/preview.av1.mp4": {
+  "v": "5d3ec6a144",
+  "type": "video/mp4; codecs=\"av01.0.04M.08\"",
+  "w": 480,
+  "h": 854,
+  "duration": 6,
+  "size": 227614
+ },
+ "/media/reels/copilot-day-1/preview.mp4": {
+  "v": "eb47ad068f",
+  "type": "video/mp4; codecs=\"avc1.64001f\"",
+  "w": 480,
+  "h": 854,
+  "duration": 6,
+  "size": 328434
+ },
+ "/media/reels/edit-with-one-prompt/full.av1.mp4": {
+  "v": "4cb9ccfe10",
+  "type": "video/mp4; codecs=\"av01.0.05M.08, opus\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 12.919,
+  "size": 1875163
+ },
+ "/media/reels/edit-with-one-prompt/full.mp4": {
+  "v": "ba3083d901",
+  "type": "video/mp4; codecs=\"avc1.64001f, mp4a.40.2\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 12.918,
+  "size": 3205681
+ },
+ "/media/reels/edit-with-one-prompt/poster-sm.webp": {
+  "v": "c8cd843353",
+  "w": 360,
+  "h": 640
+ },
+ "/media/reels/edit-with-one-prompt/poster.webp": {
+  "v": "5d6ac28a4e",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/reels/edit-with-one-prompt/preview.av1.mp4": {
+  "v": "d06adc4f7f",
+  "type": "video/mp4; codecs=\"av01.0.04M.08\"",
+  "w": 480,
+  "h": 854,
+  "duration": 6,
+  "size": 447181
+ },
+ "/media/reels/edit-with-one-prompt/preview.mp4": {
+  "v": "a0bee7981d",
+  "type": "video/mp4; codecs=\"avc1.64001f\"",
+  "w": 480,
+  "h": 854,
+  "duration": 6,
+  "size": 541145
+ },
+ "/media/reels/three-secret-tools/full.av1.mp4": {
+  "v": "dd95038198",
+  "type": "video/mp4; codecs=\"av01.0.05M.08, opus\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 20.587,
+  "size": 1523044
+ },
+ "/media/reels/three-secret-tools/full.mp4": {
+  "v": "553366bf06",
+  "type": "video/mp4; codecs=\"avc1.64001f, mp4a.40.2\"",
+  "w": 720,
+  "h": 1280,
+  "duration": 20.586,
+  "size": 2521331
+ },
+ "/media/reels/three-secret-tools/poster-sm.webp": {
+  "v": "329ad16292",
+  "w": 360,
+  "h": 640
+ },
+ "/media/reels/three-secret-tools/poster.webp": {
+  "v": "876b6f2e4b",
+  "w": 720,
+  "h": 1280
+ },
+ "/media/reels/three-secret-tools/preview.av1.mp4": {
+  "v": "2303ced1d4",
+  "type": "video/mp4; codecs=\"av01.0.04M.08\"",
+  "w": 480,
+  "h": 854,
+  "duration": 6,
+  "size": 261905
+ },
+ "/media/reels/three-secret-tools/preview.mp4": {
+  "v": "6cb1e27dcb",
+  "type": "video/mp4; codecs=\"avc1.64001f\"",
+  "w": 480,
+  "h": 854,
+  "duration": 6,
+  "size": 351824
+ },
+ "/work/cluemate.webp": {
+  "v": "8eb80478b7",
+  "w": 1200,
+  "h": 750
+ },
+ "/work/coldwire-1-discover.webp": {
+  "v": "576bb563fb",
+  "w": 520,
+  "h": 703
+ },
+ "/work/coldwire-2-build-site.webp": {
+  "v": "6dc0822537",
+  "w": 520,
+  "h": 703
+ },
+ "/work/coldwire-3-record-video.webp": {
+  "v": "638781536a",
+  "w": 520,
+  "h": 703
+ },
+ "/work/coldwire-4-call.webp": {
+  "v": "632cfb0192",
+  "w": 520,
+  "h": 703
+ },
+ "/work/coldwire-5-followup.webp": {
+  "v": "335bd1047a",
+  "w": 520,
+  "h": 703
+ },
+ "/work/coldwire-6-summary.webp": {
+  "v": "3125347651",
+  "w": 520,
+  "h": 703
+ },
+ "/work/salonflow-flow.svg": {
+  "v": "9b742184e0",
+  "w": 1120,
+  "h": 500
+ },
+ "/og/code.jpg": {
+  "v": "17a51cb5fd",
+  "w": 1200,
+  "h": 630
+ },
+ "/og/edit.jpg": {
+  "v": "32fe5ec6e3",
+  "w": 1200,
+  "h": 630
+ },
+ "/og/reel-canva-ai-day-3.jpg": {
+  "v": "f171d29a54",
+  "w": 1200,
+  "h": 630
+ },
+ "/og/reel-copilot-day-1.jpg": {
+  "v": "e4d5e321a9",
+  "w": 1200,
+  "h": 630
+ },
+ "/og/reel-edit-with-one-prompt.jpg": {
+  "v": "a5a465f9b6",
+  "w": 1200,
+  "h": 630
+ },
+ "/og/reel-three-secret-tools.jpg": {
+  "v": "84b47b824e",
+  "w": 1200,
+  "h": 630
+ }
+}

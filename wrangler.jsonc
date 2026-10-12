@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // www.krishnasharma.online — the static export plus the R2 video Worker (worker/index.ts).
+  // The apex redirect is its own Worker: wrangler.apex.jsonc.
+  "name": "krishna-website",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-01",
+  "account_id": "dbd90005f615e983ac63b622088dadc5",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    // unknown paths get out/404.html with a real 404 status
+    "not_found_handling": "404-page",
+    // /edit serves out/edit.html; /edit/ redirects to /edit
+    "html_handling": "auto-trailing-slash",
+    // Paths the Worker answers before the asset layer looks (with a list here,
+    // unmatched paths no longer fall through to the Worker, so both are explicit):
+    //  - the videos, from R2 with byte ranges;
+    //  - router prefetches like __next.edit.$d$slug.__PAGE__.txt, which the asset
+    //    layer would answer with a redirect to %24 — the Worker asks for that directly.
+    "run_worker_first": ["/media/*.mp4", "/*$*"]
+  },
+  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "krishna-media" }],
+  "observability": { "enabled": true },
+  // A route, not a custom domain: the zone's www record (proxied, still pointing
+  // at the old Vercel deployment) stays as it is and never gets a request — this
+  // Worker answers everything on the hostname. Deleting the route rolls back.
+  // HTTPS only: plain http:// goes to the redirect Worker (wrangler.apex.jsonc).
+  "routes": [{ "pattern": "https://www.krishnasharma.online/*", "zone_name": "krishnasharma.online" }]
+}

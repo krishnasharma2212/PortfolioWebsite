@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# media sources and working files (regenerate public/media with _source/build_media.py)
+/_source/*
+!/_source/build_media.py
+!/_source/*.py
+
+# cloudflare
+.wrangler/
+.dev.vars*
+.media-uploaded*.json

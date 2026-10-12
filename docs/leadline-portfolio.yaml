@@ -1,0 +1,53 @@
+# Leadline portfolio import — generated from v3/src/lib/content.ts
+#   leadline portfolio import "D:/Code/Personal Projects/Krishna Website/v3/docs/leadline-portfolio.yaml"
+# motion_graphics_level and complexity are my estimates (1-5): adjust before importing.
+# result: left empty on purpose. Only add documented client results (views, retention).
+items:
+  - title: "Microsoft Copilot — vertical reel"
+    url: "https://krishnasharma.org/edit/copilot-day-1"
+    format: educational
+    niche: technology
+    style: "split-screen explainer, word-by-word Hinglish captions, HTML motion graphics, hair pop-out, SFX on every hit"
+    duration_min: 0.41
+    motion_graphics_level: 5
+    complexity: 4
+    platform: instagram
+    language: hi
+    before_after_url: ""
+    result: ""
+  - title: "Canva AI — vertical reel"
+    url: "https://krishnasharma.org/edit/canva-ai-day-3"
+    format: educational
+    niche: technology
+    style: "split-screen explainer, English captions over Hinglish speech, generated-design sequences, 111 SFX"
+    duration_min: 0.44
+    motion_graphics_level: 5
+    complexity: 4
+    platform: instagram
+    language: hi
+    before_after_url: ""
+    result: ""
+  - title: "3 secret AI tools — vertical reel"
+    url: "https://krishnasharma.org/edit/three-secret-tools"
+    format: educational
+    niche: technology
+    style: "editorial listicle, mono labels, real 3D model in Three.js, before/after wipe"
+    duration_min: 0.34
+    motion_graphics_level: 5
+    complexity: 4
+    platform: instagram
+    language: en
+    before_after_url: "https://krishnasharma.org/edit#before-after"
+    result: ""
+  - title: "Edit videos with one prompt — vertical reel"
+    url: "https://krishnasharma.org/edit/edit-with-one-prompt"
+    format: talking_head
+    niche: technology
+    style: "hook reel, boxed keyword captions, animated pills, comment-to-DM ending"
+    duration_min: 0.21
+    motion_graphics_level: 3
+    complexity: 3
+    platform: instagram
+    language: en
+    before_after_url: ""
+    result: ""

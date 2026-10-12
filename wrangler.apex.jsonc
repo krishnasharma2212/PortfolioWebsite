@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // krishnasharma.online and http://www → 301 → https://www.krishnasharma.online (worker/apex.ts)
+  "name": "krishna-website-apex",
+  "main": "worker/apex.ts",
+  "compatibility_date": "2026-10-01",
+  "account_id": "dbd90005f615e983ac63b622088dadc5",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "krishnasharma.online/*", "zone_name": "krishnasharma.online" },
+    { "pattern": "http://www.krishnasharma.online/*", "zone_name": "krishnasharma.online" }
+  ]
+}
