@@ -14,12 +14,21 @@ One person, two playable classes — **the Editor** and **the Engineer**.
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers_%2B_R2-F38020?logo=cloudflare&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/code-MIT-green)
 
+<br/>
+
+<a href="https://www.krishnasharma.online">
+  <img src="docs/screenshots/hero.gif" alt="Character-select hero cycling through Neutral, Editor and Engineer" width="100%"/>
+</a>
+
+<sub>Press ← / → on the hero and the whole page re-grades: <b>tungsten orange</b> for the editor, <b>teal</b> for the engineer.</sub>
+
 </div>
 
 ---
 
 ## Table of contents
 
+- [Screenshots](#screenshots)
 - [About](#about)
 - [Features](#features)
 - [Tech stack](#tech-stack)
@@ -32,6 +41,78 @@ One person, two playable classes — **the Editor** and **the Engineer**.
 - [SEO](#seo)
 - [Implementation notes](#implementation-notes)
 - [License](#license)
+
+## Screenshots
+
+### Choose your class
+
+<table>
+  <tr>
+    <td width="33%"><img src="docs/screenshots/hero-neutral.jpg" alt="Neutral state"/></td>
+    <td width="33%"><img src="docs/screenshots/hero-editor.jpg" alt="Editor selected"/></td>
+    <td width="33%"><img src="docs/screenshots/hero-engineer.jpg" alt="Engineer selected"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Neutral</b> — ungraded black &amp; white</td>
+    <td align="center"><b>P1 · The Editor</b> — tungsten orange</td>
+    <td align="center"><b>P2 · The Engineer</b> — teal</td>
+  </tr>
+</table>
+
+### Home
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/home-human.jpg" alt="The human card"/></td>
+    <td width="50%"><img src="docs/screenshots/home-reels.jpg" alt="Reels grid"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>P0 — the human</b>: real photo, graded on hover</td>
+    <td align="center"><b>Edits that hold attention</b>: delivered reels</td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="docs/screenshots/home-renderframe.jpg" alt="renderFrame(t) synced to the playing reel" width="100%"/>
+  <br/><sub><b>Co-op mode — an edit is a function of <i>t</i>.</b> The reel's real renderer code and word-level transcript, synced to the playing video.</sub>
+</p>
+
+### `/edit` — the edit suite
+
+<p align="center">
+  <img src="docs/screenshots/edit-suite.jpg" alt="Mini NLE with beat map and waveform" width="100%"/>
+  <br/><sub><b>Every beat has a job.</b> A mini NLE with each reel's real beat map and measured waveform.</sub>
+</p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/edit-exploded.jpg" alt="Exploded edit layers"/></td>
+    <td width="50%"><img src="docs/screenshots/edit-raw-final.jpg" alt="Raw versus final wipe"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>One frame, five tracks</b>: the exploded edit in 3D</td>
+    <td align="center"><b>Raw ⟷ final</b>: frame-aligned before/after wipe</td>
+  </tr>
+</table>
+
+### `/code` — the codebase
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/code-cluemate.jpg" alt="ClueMate case study"/></td>
+    <td width="50%"><img src="docs/screenshots/code-coldwire.jpg" alt="Coldwire case study"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>ClueMate</b>: real-time AI copilot for video calls</td>
+    <td align="center"><b>Coldwire</b>: autonomous outbound engine</td>
+  </tr>
+</table>
+
+### Mobile
+
+<p align="center">
+  <img src="docs/screenshots/mobile.jpg" alt="Mobile views of /edit, home and /code" width="100%"/>
+</p>
 
 ## About
 
@@ -162,7 +243,7 @@ Create a `.env.local` if you need any of these:
 │   └── apex.ts              # 301s apex + plain-http to https://www
 ├── scripts/                 # Media manifest, post-build fixes, R2 upload, IndexNow
 ├── _source/                 # Python media pipeline (avatar cut-outs, encodes, OG cards)
-├── docs/                    # SEO playbook and related notes
+├── docs/                    # SEO playbook, notes and README screenshots
 ├── ASSETS.md                # Prompts used to generate the 3D avatar
 ├── wrangler.jsonc           # Main Worker config
 └── wrangler.apex.jsonc      # Redirect Worker config
